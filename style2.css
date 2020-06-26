@@ -1,0 +1,41 @@
+h1{
+    
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.buisness{
+border-radius: 40%;
+border-color: rgb(49, 10, 224);
+border-style: dotted;
+border-width: .08cm;
+height: 7.8cm;
+
+}
+body{
+    text-align: center;
+}
+:root{
+    background-image:
+    radial-gradient(
+      circle at top right,
+      rgb(123, 238, 241),
+      rgb(42, 189, 181),
+      rgb(4, 145, 133));
+}
+ol{
+    list-style-position: inside;
+
+    
+}
+.B{
+    border-radius: 50%;
+    text-align: center;
+    border-color: black;
+}
+.wow{
+border-radius: 50%;
+border-width: 15px;
+height: 8cm;
+width: 11cm;
+object-fit: inherit;
+}
