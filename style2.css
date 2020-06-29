@@ -18,9 +18,11 @@ body{
     background-image:
     radial-gradient(
       circle at top right,
-      rgb(123, 238, 241),
-      rgb(42, 189, 181),
-      rgb(4, 145, 133));
+      #041F60,
+      #0476D0,
+      #2CEEF0);
+      font-family: 'Times New Roman', Times, serif;
+
 }
 ol{
     list-style-position: inside;
@@ -38,4 +40,29 @@ border-width: 15px;
 height: 8cm;
 width: 11cm;
 object-fit: inherit;
+}
+@media all and (max-width: 800px) {
+}
+#nav-link{
+  color: whitesmoke;
+}
+iframe{
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#box{
+    width: 250px;
+    border: 5px ridge blue;
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto auto;
+}
+ol{
+    padding: 0mm;
 }
