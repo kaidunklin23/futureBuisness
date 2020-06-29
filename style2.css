@@ -1,3 +1,11 @@
+header{
+    background-color: blue;
+    text-align: center;
+    margin: -20px -20px 0px -20px;
+}
+
+
+
 h1{
     
     font-family: 'Lobster', cursive;
@@ -8,7 +16,8 @@ border-radius: 40%;
 border-color: rgb(49, 10, 224);
 border-style: dotted;
 border-width: .08cm;
-height: 7.8cm;
+height: 2.5cm;
+content-align: left;
 
 }
 body{
@@ -65,4 +74,21 @@ p {
 }
 ol{
     padding: 0mm;
+}
+#head{
+width: auto;
+margin-left: 50%;
+margin-right: 50%;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+}
+nav{
+    display: flex;
+    flex-direction: initial;
+    align-self: center;
+
+
+
+    
 }
