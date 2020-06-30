@@ -47,11 +47,7 @@ body{
 }
 
 
-ol{
-    list-style-position: inside;
 
-    
-}
 .B{
     border-radius: 25%;
     text-align: center;
@@ -92,6 +88,7 @@ p {
 }
 ol{
     padding: 0mm;
+    list-style-position: inside;
 }
 #head{
 width: auto;
@@ -105,6 +102,13 @@ nav{
     display: flex;
     flex-direction: initial;
     align-self: center;
+    background-image:
+    radial-gradient(
+      circle at top right,
+      #2d0246,
+      #9f0ec4,
+      #d69cf1);
+
 }
 a{
   padding: auto;  
@@ -132,4 +136,7 @@ margin: 0px 300px 0px 300px;
 }
 .cool{
     border-radius: 40%;
+}
+nav{
+    width: 500px;
 }
